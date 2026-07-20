@@ -27,7 +27,6 @@ This project implements a distributed file storage application composed of a cli
 - Linux
 
 ## Project structure
-
 ```text
 .
 ├── tele_client.cpp
@@ -42,3 +41,21 @@ This project implements a distributed file storage application composed of a cli
 ├── Notification.cpp
 ├── NotificationQueue.cpp
 └── Makefile
+
+## Build
+
+Compile the project using:
+make
+
+## Execution
+
+Start the server:
+
+./tele_server
+
+Start the client in another terminal:
+
+./tele_client
+
+### Author
+Estela Rodríguez
