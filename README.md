@@ -26,22 +26,7 @@ This project implements a distributed file storage application composed of a cli
 - Make
 - Linux
 
-## Project structure
-```text
-.
-├── tele_client.cpp
-├── tele_server.cpp
-├── rpc_middleware.cpp
-├── Administrador.cpp
-├── Cliente.cpp
-├── Usuario.cpp
-├── Fichero.cpp
-├── FicheroTexto.cpp
-├── FicheroImagen.cpp
-├── Notification.cpp
-├── NotificationQueue.cpp
-└── Makefile
-
+  
 ## Build
 
 Compile the project using:
@@ -59,3 +44,22 @@ Start the client in another terminal:
 
 ### Author
 Estela Rodríguez
+
+## Project structure
+```text
+.
+├── tele_client.cpp
+├── tele_server.cpp
+├── rpc_middleware.cpp
+├── Administrador.cpp
+├── Cliente.cpp
+├── Usuario.cpp
+├── Fichero.cpp
+├── FicheroTexto.cpp
+├── FicheroImagen.cpp
+├── Notification.cpp
+├── NotificationQueue.cpp
+└── Makefile
+
+
+
